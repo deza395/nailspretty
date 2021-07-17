@@ -29,7 +29,7 @@ class ServiceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
+    {   
         $categories=Category::pluck('name','id');
         return view('admin.services.create',compact('categories'));
         }
@@ -67,12 +67,14 @@ class ServiceController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
+     
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function edit(Service $service)
     {
+
+        $this->authorize('author',$service);
         $categories=Category::pluck('name','id');
         return view('admin.services.edit', compact('service','categories'));
     }
@@ -86,6 +88,7 @@ class ServiceController extends Controller
      */
     public function update(ServiceRequest  $request, Service $service)
     {
+        $this->authorize('author',$service);
         $service->update($request->all());
         if($request->file('file')){
           $url= Storage::put('posts',$request->file('file'));
@@ -113,7 +116,8 @@ class ServiceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(Service $service)
-    {
+    {   
+        $this->authorize('author',$service);
         $service ->delete();
         return redirect()->route('admin.servicies.index')->with('info','el servicio se elimino con exito');
     }

@@ -232,8 +232,10 @@ return [
 
         // Sidebar items:
         [
-            'type' => 'sidebar-menu-search',
-            'text' => 'search',
+            'text' => ' Usuarios',
+            'route'  => 'admin.users.index',
+            'icon' => 'fas fa-fw fa-users',
+            'can'=>'admin.users.index'
         ],
         [
             'text' => 'blog',
@@ -246,23 +248,27 @@ return [
             'text' => 'Lista de Categorías',
             'route'  => 'admin.categories.index',
             'icon' => 'fas fa-fw fa-clipboard',
+            'can'=>'admin.categories.index'
         ],
         [
             'text' => ' Crear Categoría',
             'route'  => 'admin.categories.create',
             'icon' => 'fas fa-fw fa-file',
+            'can'=>'admin.categories.index'
         ],
        
         ['header' => 'Sevicios'],
         [
             'text'       => 'Lista de Servicios',          
             'route'        => 'admin.services.index',
-            'icon' => 'fas fa-fw  fa-clipboard'
+            'icon' => 'fas fa-fw  fa-clipboard',
+            'can'=>'admin.services.index'
         ],
         [
             'text'       => 'Crear Nuevo Servicio',          
             'route'        => 'admin.services.create',
-            'icon' => 'fas fa-fw fa-file'
+            'icon' => 'fas fa-fw fa-file',
+            'can'=>'admin.services.index'
         ],
       
     ],
