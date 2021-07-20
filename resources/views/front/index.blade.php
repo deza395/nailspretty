@@ -122,7 +122,7 @@
                     <div class="inner">
 						
                        
-                        <div class="avatar2"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+                        <div class="avatar"><img src="img/manicure/Nail.jpg" alt="" class="img-responsive img-circle" /></div>
                     </div>
                 </div>
 				</div>
@@ -132,8 +132,8 @@
                 <div class="team boxed-grey">
                     <div class="inner">
 					
-						<p>Somos un grupo de mujeres emprendedoras apasionadas por nuestro trabajo.</p>
-                            <p>Ofrecemos a nuestros clientas un servicio de alto nivel con productos de calidad y con una duración óptima, siempre a la vanguardia en productos, colores y tendencias.</p>
+						<p  style="font-size: 20px">Somos un grupo de mujeres emprendedoras apasionadas por nuestro trabajo.
+                           Nuestra meta es sacar lo mejor de cada mujer, encontrando su estilo y su personalidad. Queremos lograr un lugar donde te sientas cómoda, un espacio para que puedas relajarte.</p><p style="font-size: 20px"> Ofrecemos a nuestros clientas un servicio de alto nivel con productos de calidad y con una duración óptima, siempre a la vanguardia en productos, colores y tendencias.</p>
                             
                        
                         

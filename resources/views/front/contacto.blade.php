@@ -90,16 +90,16 @@
 			<div class="widget-contact">
 				<br>
 				
-				<address>
-				  <strong>Squas Design, Inc.</strong><br>
-				  Tower 795 Folsom Ave, Beautiful Suite 600<br>
-				  San Francisco, CA 94107<br>
-				  <abbr title="Phone">P:</abbr> (123) 456-7890
+				<address style="font-size: 18px">
+				  <strong>Dirección.</strong><br>
+				  Las Heras 114 Monte Grande<br>
+			
+				 Teléfono: +54 9 11 6541-8115
 				</address>
 
-				<address>
+				<address style="font-size: 18px">
 				  <strong>Email</strong><br>
-				  <a href="mailto:#">email.name@example.com</a>
+				  <a href="mailto:#">prettynailsmg@gmail.com</a>
 				</address>	
 				<address>
 							

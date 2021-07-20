@@ -73,7 +73,7 @@
 
                         <div class="wow bounceInUp" data-wow-delay="0.2s">
                             <div class="team boxed-grey">
-                                <div class="inner"  @if ($service->category_id=='1')  style=" background: #e1c9c3"  @elseif ($service->category_id=='2')  style=" background: #c3d8d3" @else  style=" background:#d1cbd1;"@endif >
+                                <div class="inner"  @if ($service->category_id=='2')  style=" background: #e1c9c3"  @elseif ($service->category_id=='3')  style=" background: #c3d8d3" @else  style=" background:#d1cbd1;"@endif >
                                     <br><br>
                                     
                                    

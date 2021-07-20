@@ -17,7 +17,7 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        $categories =Category::factory(1)->create();
+        $categories =Category::factory(4)->create();
 
         foreach($categories as $category){
             Image::factory(1)->create([

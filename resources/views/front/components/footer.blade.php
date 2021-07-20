@@ -15,7 +15,7 @@
                                 </a>
                                <br>
                                 <ul class="company-social" style="text-align: center">
-                                    <li class="social-instagram"><a href="#" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
+                                    <li class="social-instagram"><a href="https://www.instagram.com/prettynailsmg/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
                                    
                                 </ul>	
                           
